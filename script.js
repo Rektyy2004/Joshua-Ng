@@ -1038,7 +1038,7 @@ const achievementData = [
         title: "Bonding Event – 70th Launch Party",
         date: "2024",
         images: [
-            "image/bonding-1.jpg"
+            "image/bonding-1.JPG",
         ],
         description: "Organised as part of the 70th Anniversary celebration, this bonding event united members from 1st KL Boys’ Brigade (BB) and Girls’ Brigade (GB) for an afternoon of meaningful connection and fun. Guided by the theme “Unstoppable Spirit” and inspired by 2 Timothy 1:7, the event focused on breaking the ice, strengthening friendships, and fostering unity across different age groups through interactive activities and shared experiences.",
         stats: [
@@ -1309,4 +1309,5 @@ const gameData = [
             { value: "3.0 K/D", label: "Kill-Death Ratio" }
         ]
     }
+
 ];
