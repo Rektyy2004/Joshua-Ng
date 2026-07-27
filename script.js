@@ -12,6 +12,7 @@ if (document.documentElement) {
     document.documentElement.classList.add('js', 'js-ready');
 }
 
+
 document.addEventListener('DOMContentLoaded', () => {
     initPortfolioView();
     initMetricCounters();
