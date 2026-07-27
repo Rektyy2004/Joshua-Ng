@@ -12,7 +12,6 @@ if (document.documentElement) {
     document.documentElement.classList.add('js', 'js-ready');
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
     initPortfolioView();
     initMetricCounters();
@@ -43,7 +42,7 @@ function storeProfileMode(mode) {
     try {
         localStorage.setItem('profileMode', mode);
     } catch (error) {
-        // The page still works when storage is unavailable, such as file privacy mode.
+        // The page still works when storage is unavailable, such as file privacy mode
     }
 }
 
